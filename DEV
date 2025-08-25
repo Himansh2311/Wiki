@@ -1,1 +1,35 @@
 
+
+# Development Environment Specification: Dev1
+
+## Application Servers
+1. AppServer-Dev1-01
+   - OS: Ubuntu 22.04 LTS
+   - CPU: 4 vCPUs
+   - RAM: 16 GB
+   - Application: FastAPI Backend
+
+2. AppServer-Dev1-02
+   - OS: Windows Server 2022
+   - CPU: 8 vCPUs
+   - RAM: 32 GB
+   - Application: React Frontend with Node.js
+
+## Database Servers
+1. DBServer-Dev1-01
+   - OS: Ubuntu 20.04 LTS
+   - CPU: 8 vCPUs
+   - RAM: 64 GB
+   - Database: PostgreSQL 14
+
+2. DBServer-Dev1-02
+   - OS: CentOS 8
+   - CPU: 16 vCPUs
+   - RAM: 128 GB
+   - Database: MongoDB 6.0
+
+## Notes
+- All servers are part of the Dev1 environment.
+- Servers are connected through internal private network.
+- Monitoring is handled via Prometheus and Grafana.
+
