@@ -1,0 +1,28 @@
+
+## UAT Environment (UAT1)
+
+### Application Servers
+1. AppServer-UAT1-01
+   - OS: Ubuntu 22.04 LTS
+   - CPU: 4 vCPUs
+   - RAM: 16 GB
+   - Application: FastAPI Backend
+
+2. AppServer-UAT1-02
+   - OS: Windows Server 2022
+   - CPU: 8 vCPUs
+   - RAM: 32 GB
+   - Application: React Frontend with Node.js
+
+### Database Servers
+1. DBServer-UAT1-01
+   - OS: Ubuntu 20.04 LTS
+   - CPU: 8 vCPUs
+   - RAM: 64 GB
+   - Database: PostgreSQL 13
+
+2. DBServer-UAT1-02
+   - OS: CentOS 7
+   - CPU: 16 vCPUs
+   - RAM: 128 GB
+   - Database: Oracle 19c
